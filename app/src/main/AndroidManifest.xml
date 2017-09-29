@@ -3,7 +3,7 @@
     package="com.example.zvjerka.educiraj_me">
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -19,7 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".url_qr"></activity>
+        <activity android:name=".url_qr" />
+        <activity android:name=".kategorija"></activity>
     </application>
 
 </manifest>
