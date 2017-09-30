@@ -4,15 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.zvjerka.educiraj_me.QR_fragment">
+    tools:context="com.example.zvjerka.educiraj_me.QR_fragment"
+    android:weightSum="1">
 
     <!-- TODO: Update blank fragment layout -->
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_margin="10dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
         android:layout_width="match_parent"
-        android:layout_height="69dp"
+        android:layout_height="120dp"
         app:srcCompat="@drawable/logomobile" />
 
 
@@ -20,15 +24,20 @@
         android:id="@+id/qr"
         class="me.dm7.barcodescanner.zxing.ZXingScannerView"
         id="@+id/view"
-        android:layout_width="250dp"
+        android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:layout_gravity="center"
-        android:layout_margin="50dp"/>
+        android:layout_gravity="fill"
+        android:layout_marginTop="18dp"
+        android:layout_weight="0.60" />
 
     <Button
         android:id="@+id/btn_qr"
-        android:layout_width="wrap_content"
+        android:layout_width="264dp"
         android:layout_height="wrap_content"
-        android:text="@string/scan"
-        android:layout_gravity="center" />
+        android:background="#10893E"
+        android:layout_marginTop="18dp"
+        android:text="DODIRNI ZA SKENIRANJE"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fff"
+        android:textSize="18dp" />
 </LinearLayout>

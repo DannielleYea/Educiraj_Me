@@ -10,11 +10,15 @@
 
 
     <ImageView
-        android:layout_margin="10dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="69dp"
-        app:srcCompat="@drawable/logomobile" />
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/logomobile"
+        />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rec_meni"

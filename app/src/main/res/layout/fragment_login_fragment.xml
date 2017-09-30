@@ -14,35 +14,52 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
+
         <ImageView
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
-            android:layout_height="69dp"
-            android:layout_margin="10dp"
-            app:srcCompat="@drawable/logomobile" />
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/logomobile"
+            />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="68dp"
-        android:orientation="horizontal">
+        android:layout_height="89dp"
+        android:orientation="vertical"
+
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp">
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="0dp"
             android:layout_weight="1"
-            android:text="Korisnicko ime:" />
+            android:text="OIB tvrtke"
+            android:textSize="24dp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/name_login"
-            android:digits="0123456789."
-            android:inputType="numberDecimal"
-            android:layout_width="wrap_content"
+            android:layout_width="260dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#10893E"
+            android:digits="0123456789."
             android:ems="10"
-            android:text="Name" />
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColor="#333"
+            android:textColorHighlight="#10893E"
+            android:textColorLink="#10893E" />
 
     </LinearLayout>
 
@@ -50,20 +67,33 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:orientation="vertical"
+
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="20dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Zaporka:" />
+            android:layout_gravity="center_horizontal"
+            android:text="Lozinka"
+            android:textSize="24dp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/password_login"
-            android:layout_width="wrap_content"
+            android:layout_width="260dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#10893E"
             android:ems="10"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:singleLine="false"
+            android:textAlignment="center"
+            android:textColor="#333"
+            android:textColorHighlight="#10893E"
+            android:textColorLink="#10893E" />
 
     </LinearLayout>
 
@@ -86,7 +116,11 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="#10893E"
+            android:elevation="4dp"
+            android:text="PRIJAVI SE"
+            android:textColor="#fff"
+            android:textSize="18sp" />
 
         <LinearLayout
             android:layout_width="wrap_content"

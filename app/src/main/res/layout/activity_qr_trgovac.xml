@@ -4,19 +4,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.zvjerka.educiraj_me.qr_trgovac">
+    tools:context="com.example.zvjerka.educiraj_me.qr_trgovac"
+    android:weightSum="1">
 
     <view
         android:id="@+id/qr_trgovac"
         class="me.dm7.barcodescanner.zxing.ZXingScannerView"
         id="@+id/view"
-        android:layout_width="250dp"
-        android:layout_height="250dp" />
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_weight="0.92" />
 
     <Button
         android:id="@+id/qr_trgovac_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="264dp"
         android:layout_height="wrap_content"
-        android:text="@string/scan" />
+        android:background="#10893E"
+        android:layout_marginTop="18dp"
+        android:text="DODIRNI ZA SKENIRANJE"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fff"
+        android:textSize="18dp" />
 
 </LinearLayout>
