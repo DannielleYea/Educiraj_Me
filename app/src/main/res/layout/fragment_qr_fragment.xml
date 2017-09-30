@@ -15,6 +15,7 @@
         android:layout_height="69dp"
         app:srcCompat="@drawable/logomobile" />
 
+
     <view
         android:id="@+id/qr"
         class="me.dm7.barcodescanner.zxing.ZXingScannerView"
