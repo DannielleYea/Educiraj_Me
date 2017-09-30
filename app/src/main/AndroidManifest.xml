@@ -27,7 +27,8 @@
         <activity
             android:name=".kategorija"
             android:screenOrientation="portrait" />
-        <activity android:name=".qr_trgovac"></activity>
+        <activity android:name=".qr_trgovac" />
+        <activity android:name=".ispis_stavaka"></activity>
     </application>
 
 </manifest>
